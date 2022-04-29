@@ -5,6 +5,9 @@ const styles = {
     "html, body": {
       widht: "100%",
       height: "100%",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
       backgroundImage: "url('src/images/symbol-scatter-haikei.svg')",
     },
   },

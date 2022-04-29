@@ -1,9 +1,23 @@
+import { Heading, Stack, Text } from "@chakra-ui/react";
 
 function App() {
   return (
     <div className="App">
+      <Stack
+        w="500px"
+        h="500px"
+        m="auto"
+        bgColor="#c24f49"
+        boxShadow="rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset, rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px, rgba(0, 0, 0, 0.4) 0px 30px 90px"
+        color="#eee"
+      >
+        <Heading>Regalos:</Heading>
+        <Text>Medias</Text>
+        <Text>Caramelos</Text>
+        <Text>Vitel Tone</Text>
+      </Stack>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
